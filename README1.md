@@ -1,3 +1,4 @@
+## LED Program: Cepat → Sedang → Mati
 const int ledPin = 6;
 int timeDelay = 1000;
 bool modeLambat = false;
