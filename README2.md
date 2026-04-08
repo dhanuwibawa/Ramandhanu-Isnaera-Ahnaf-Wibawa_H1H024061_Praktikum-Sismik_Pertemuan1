@@ -1,3 +1,6 @@
+## LED Program: 3 Kiri dan 3 Kanan Bergantian
+
+```cpp
 void loop() {
   // LED kiri
   for (int i = 2; i <= 4; i++) {
@@ -19,6 +22,7 @@ void loop() {
     digitalWrite(i, LOW);
   }
 }
+```
 
 Penjelasan:
 Program ini membagi LED menjadi dua kelompok, yaitu kelompok kiri dan kelompok kanan. Pada tahap pertama, LED di sisi kiri dinyalakan secara bersamaan, kemudian dimatikan. Setelah itu, LED di sisi kanan dinyalakan dan dimatikan. Proses ini dilakukan secara berulang sehingga menghasilkan pola nyala bergantian antara kedua sisi.
